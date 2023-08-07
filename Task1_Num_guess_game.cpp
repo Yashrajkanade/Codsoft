@@ -8,7 +8,7 @@ int main()
     int num = rand()%100;
     int guess;
     cout<<"Can you guess the number between 0-100.\n";
-    while(1)
+    while(true)
     {
         cout<<"Enter the guess:";
         cin>>guess;
